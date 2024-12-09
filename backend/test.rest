@@ -1,0 +1,23 @@
+GET http://localhost:5000/api/initialize-database
+
+################################
+
+################################
+GET http://localhost:5000/api/transactions?page=1&perPage=10
+Content-Type: application/json
+
+################################
+
+GET http://localhost:5000/api/transactions?search=Product&page=1&perPage=5
+Content-Type: application/json
+
+################################
+
+GET http://localhost:5000/api/statistics?month=12
+Content-Type: application/json
+
+################################
+
+GET http://localhost:5000/api/bar-chart?month=12
+Content-Type: application/json
+
